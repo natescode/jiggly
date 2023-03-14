@@ -1,0 +1,17 @@
+{
+  "name": "jiggly",
+  "version": "1.0.0",
+  "description": "a simple mouse jiggler",
+  "main": "./bin/index.js",
+  "bin": {
+    "jiggler": "./bin/index.js"
+  },
+  "scripts": {
+    "start": "node ./bin/index.js"
+  },
+  "author": "NatesCode LLC",
+  "license": "MIT",
+  "dependencies": {
+    "robotjs": "^0.6.0"
+  }
+}
